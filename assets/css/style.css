@@ -275,7 +275,7 @@ nav .nav-list {
 
 .skills-flex {
   width: 100%;
-  max-width: 580px;
+  max-width: 540px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
