@@ -172,6 +172,17 @@ nav .nav-list {
   margin-top: 8vh;
   height: 600px;
   background: #e9be08;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 80px;
+}
+#s-banner h1 {
+  color: #2c1547;
+}
+#s-banner h1::before {
+  content: '';
 }
 
 /* About */
@@ -180,7 +191,7 @@ nav .nav-list {
   flex-wrap: wrap;
 }
 .bg-about {
-  background-image: url("../imgs/about-background.jpg");
+  background-image: url("../imgs/hc-about.jpg");
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -210,7 +221,7 @@ nav .nav-list {
   width: 250px;
   text-align: center;
   font-size: 1.8rem;
-  font-family: "IBM-Plex-Mono-Medium";
+  font-family: "IBM-Plex-Mono-SemiBold";
 }
 
 /* Services */
@@ -222,14 +233,15 @@ nav .nav-list {
   margin-bottom: 20px;
 }
 
+#service img,
+#service p {
+  margin-bottom: 40px;
+}
+
 #service h3 {
   font-size: 2.0rem;
   margin-bottom: 10px;
   font-family: "IBM-Plex-Mono-Medium";
-}
-
-#service p {
-  margin-bottom: 60px;
 }
 
 .service-flex {
@@ -399,7 +411,7 @@ form input[type="submit"] {
   background: #e9be08;
   color: #2c1547;
   font-family: "IBM-Plex-Mono-SemiBold";
-  font-size: 18px;
+  font-size: 1.8rem;
   border: none;
   border-radius: 0;
   cursor: pointer;
@@ -475,6 +487,9 @@ footer {
   }
   header .button {
     display: none;
+  }
+  #s-banner {
+    padding: 0 2rem;
   }
   #about {
     display: flex;
