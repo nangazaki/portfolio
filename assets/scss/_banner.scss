@@ -1,0 +1,19 @@
+.banner {
+  margin-top: 8vh;
+  height: 600px;
+  background: $color-bg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 80px;
+
+  h1 {
+    color: $color-primary;
+    @include type-2(36)
+;
+    &::before {
+      content: '';
+    }
+  }
+}

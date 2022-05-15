@@ -1,0 +1,84 @@
+@function em($pixels, $context: 16) {
+  @return ($pixels / $context) * 1em;
+}
+
+@mixin type-1($size) {
+  font-family: $font-main;
+
+  @if $size==16 {
+    font-size: em(16, 16);
+    line-height: em(20, 16);
+  }
+
+  @else if $size==18 {
+    font-size: em(18, 16);
+    line-height: em(25, 16);
+  }
+
+  @else if $size==22 {
+    font-size: em(22, 16);
+    line-height: em(30, 16);
+  }
+
+  @else if $size==36 {
+    font-size: em(36, 16);
+  }
+
+  @else if $size==48 {
+    font-size: em(48, 16);
+  }
+}
+
+@mixin type-2($size) {
+  font-family: $font-title;
+
+  @if $size==16 {
+    font-size: em(16, 16);
+    line-height: em(20, 16);
+  }
+
+  @else if $size==18 {
+    font-size: em(18, 16);
+    line-height: em(25, 16);
+  }
+
+  @else if $size==24 {
+    font-size: em(24, 16);
+    line-height: em(30, 16);
+  }
+
+  @else if $size==36 {
+    font-size: em(36, 16);
+  }
+
+  @else if $size==48 {
+    font-size: em(48, 16);
+  }
+}
+
+@mixin type-3($size) {
+  font-family: $font-menu;
+
+  @if $size==16 {
+    font-size: em(16, 16);
+    line-height: em(20, 16);
+  }
+
+  @else if $size==18 {
+    font-size: em(18, 16);
+    line-height: em(25, 16);
+  }
+
+  @else if $size==24 {
+    font-size: em(24, 16);
+    line-height: em(30, 16);
+  }
+
+  @else if $size==36 {
+    font-size: em(36, 16);
+  }
+
+  @else if $size==48 {
+    font-size: em(48, 16);
+  }
+}

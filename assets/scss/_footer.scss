@@ -1,0 +1,15 @@
+footer {
+  background: #f2f2f208;
+
+  #footer {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

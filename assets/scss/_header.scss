@@ -1,0 +1,64 @@
+header {
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+
+  nav {
+    width: 100%;
+    height: 8vh;
+    padding: 0 80px;
+    background: $color-primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mobile-menu {
+      display: none;
+
+      &.active {
+        .line1 {
+          transform: rotate(-45deg) translate(-8px, 8px);
+          -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+        }
+
+        .line2 {
+          opacity: 0;
+        }
+
+        .line3 {
+          transform: rotate(45deg) translate(-5px, -5px);
+          -webkit-transform: rotate(45deg) translate(-5px, -5px);
+        }
+      }
+    }
+
+    .nav-list {
+      display: flex;
+      gap: 30px;
+
+      &.active {
+        visibility: initial;
+        transition: 1s all ease;
+        -webkit-transition: 1s all ease;
+      }
+
+      a {
+        @include type-3(16);
+        color: $color-bg;
+      }
+    }
+
+    .cv-download {
+      background-color: $color-secondary;
+      color: $color-white;
+      width: 130px;
+      height: 30px;
+      @include type-3(16);
+      font-weight: 500;
+      letter-spacing: 0em;
+      cursor: pointer;
+    }
+  }
+}

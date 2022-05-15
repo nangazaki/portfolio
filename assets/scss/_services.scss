@@ -1,0 +1,35 @@
+#s-services {
+  background: $color-bg-secondary;
+
+  h1 {
+    @include type-2(36);
+    margin-bottom: 20px;
+  }
+
+  img,
+  p {
+    color: $color-gray;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    @include type-2(24);
+  }
+
+  .service-flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .service-card {
+      width: 100%;
+      max-width: 300px;
+      background: $color-bg;
+      border-bottom: 6px solid $color-primary;
+      padding: 30px;
+    }
+  }
+
+}

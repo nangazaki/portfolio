@@ -1,0 +1,123 @@
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    nav {
+      width: 100%;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .mobile-menu {
+        width: 30px;
+        height: 30px;
+        display: block;
+
+        div {
+          width: 100%;
+          height: 2px;
+          background-color: $color-bg;
+          margin-bottom: 8px;
+          transition: 0.5s;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .nav-list {
+        text-align: center;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 8vh);
+        z-index: 999;
+        background-color: $color-primary;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 5em;
+        visibility: hidden;
+
+        a {
+          @include type-3(24);
+          color: $color-bg;
+        }
+      }
+
+      .button {
+        display: none;
+      }
+    }
+  }
+
+  #s-banner {
+    padding: 0 2rem;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+
+    .bg-about {
+      width: 100%;
+      height: 600px;
+    }
+
+    .about-context {
+      width: 100%;
+      padding: 0 2em;
+    }
+  }
+
+  #service,
+  #service .service-flex,
+  .service-flex .service-card {
+    width: 100%;
+  }
+
+  .service-flex {
+    padding: 0 2em;
+  }
+
+  .skills-flex {
+    width: 100%;
+    padding: 0 2em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #s-portfolio {
+    .portfolio {
+      padding: em(20, 16) em(10, 16) !important;
+
+      .portfolio-card {
+        width: 100%;
+      }
+    }
+  }
+
+  #contact-me {
+    .fill {
+      .contact {
+        width: 100%;
+        padding: 5em 2em;
+      }
+    }
+  }
+
+  #footer {
+    padding: 3em 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+}
