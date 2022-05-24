@@ -446,9 +446,10 @@ header nav .cv-download {
   background: #2c1547;
 }
 
-#contact-me {
+#s-contact-me {
   background-image: url("../imgs/hc-contact.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 #s-contact-me .fill {
@@ -638,7 +639,7 @@ footer #footer div {
   #s-portfolio .portfolio .portfolio-card {
     width: 100%;
   }
-  #contact-me .fill .contact {
+  #s-contact-me .fill .contact {
     width: 100%;
     padding: 5em 2em;
   }
