@@ -2,11 +2,7 @@
   💻<br>Portfólio - Helder Cambuta
 </h1>
 
-![Resultado final do projeto]
-
-<h4 align="center"><a href="#">Clique para visitar o projeto</a></h4>
-
-##:framed_picture: Páginas
+## :framed_picture: Páginas
 
 O site é composto por quatro páginas:
 
@@ -17,7 +13,7 @@ O site é composto por quatro páginas:
 
 ---
 
-## :hammer_and_wrench:Tecnologias utilizadas
+## :hammer_and_wrench: Tecnologias utilizadas
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
