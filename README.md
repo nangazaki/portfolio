@@ -1,42 +1,45 @@
-# Nuxt 3 Minimal Starter
+<h1 align="center">
+  💻<br>Portfólio - Helder Cambuta
+</h1>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Resultado final do projeto]
 
-## Setup
+<h4 align="center"><a href="#">Clique para visitar o projeto</a></h4>
 
-Make sure to install the dependencies:
+##:framed_picture: Páginas
 
-```bash
-# yarn
-yarn install
+O site é composto por quatro páginas:
 
-# npm
-npm install
+- **Home:** Nele temos uma breve apresentação;
+- **Sobre:** Nessa página faço uma descrição pessoal, dizendo um pouco sobre quem sou. Apresento também as minhas habilidades/conhecimentos e os serviços que presto;
+- **Portfolio:** Apresenta alguns projetos desenvolvidos e com link direto para os respectivos códigos no GitHub;
+- **Contacto:** Apresenta o formulário de contacto;
 
-# pnpm
-pnpm install
-```
+---
 
-## Development Server
+## :hammer_and_wrench:Tecnologias utilizadas
 
-Start the development server on http://localhost:3000
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-```bash
-npm run dev
-```
+- Nuxt3 (HTML & TypeScript);
+- Sass;
+- TailwindCSS;
+- Nuxt Icons;
+- Por adicionar...
 
-## Production
+---
 
-Build the application for production:
+<h2>:balloon: Autor</h2>
 
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/nangazaki">
+        <img src="https://avatars.githubusercontent.com/u/63684025?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Helder Cambuta (Nangazaki)</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
